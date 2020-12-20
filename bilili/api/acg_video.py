@@ -26,7 +26,7 @@ def get_video_info(avid: str = "", bvid: str = ""):
         "avid": str(res_json_data["aid"]),
         "bvid": res_json_data["bvid"],
         "cid": res_json_data["cid"],
-        "desc": res_json_data["desc"]
+        "desc": res_json_data["desc"],
         "picture": res_json_data["pic"],
         "episode_id": episode_id,
     }
